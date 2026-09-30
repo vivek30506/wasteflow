@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Create account | WasteFlow</title><script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="app.css"><script src="https://unpkg.com/lucide@latest"></script></head>
+<body class="min-h-screen bg-white"><main class="grid min-h-screen lg:grid-cols-2">
+  <section class="auth-panel order-2 flex min-h-[280px] flex-col justify-between px-7 py-8 sm:px-12 sm:py-12 lg:order-1 lg:min-h-screen lg:px-16 lg:py-14">
+    <a class="relative z-10 flex items-center gap-2.5" href="index.html"><span class="brand-mark !bg-white !text-emerald-950"><i data-lucide="recycle" class="h-5 w-5"></i></span><span class="brand-name">WasteFlow</span></a>
+    <div class="relative z-10 my-8 max-w-lg"><p class="text-sm font-bold uppercase tracking-widest text-lime-300">Your community needs you</p><h1 class="mt-4 text-4xl font-extrabold leading-tight sm:text-5xl">Join us for a cleaner city.</h1><p class="mt-4 max-w-md leading-7 text-emerald-100/75">Make it easier to care for the places we share, one small action at a time.</p><ul class="mt-8 space-y-4 text-sm text-emerald-50/90"><li class="flex gap-3"><i data-lucide="circle-check" class="h-5 w-5 shrink-0 text-lime-300"></i>Send local reports to the right team</li><li class="flex gap-3"><i data-lucide="circle-check" class="h-5 w-5 shrink-0 text-lime-300"></i>Arrange a household waste pickup</li><li class="flex gap-3"><i data-lucide="circle-check" class="h-5 w-5 shrink-0 text-lime-300"></i>Learn better everyday waste habits</li></ul></div>
+    <p class="relative z-10 text-xs text-emerald-100/60">A better block begins with a neighbor.</p>
+  </section>
+  <section class="order-1 flex items-center justify-center px-5 py-10 sm:px-12 lg:order-2"><div class="w-full max-w-md">
+    <a href="index.html" class="mb-7 inline-flex items-center gap-2 text-sm font-semibold text-stone-500 hover:text-emerald-900"><i data-lucide="arrow-left" class="h-4 w-4"></i> Back to home</a>
+    <h2 class="text-3xl font-extrabold text-emerald-950">Create your account</h2><p class="mt-2 text-sm text-stone-500">A few details to get your neighborhood started.</p>
+    <div class="mt-6 grid grid-cols-2 gap-2 rounded-lg bg-stone-100 p-1" data-role-toggle><button type="button" class="role-option rounded-md px-4 py-2.5 text-sm" data-role="citizen" aria-pressed="true">Citizen</button><button type="button" class="role-option rounded-md px-4 py-2.5 text-sm" data-role="admin" aria-pressed="false">Admin</button></div>
+    <form class="mt-5 space-y-4" data-demo-form data-success="Demo account created. Connect the auth API to register securely.">
+      <div><label for="full-name" class="mb-1.5 block text-sm font-semibold text-stone-700">Full name</label><input class="form-control" id="full-name" name="name" autocomplete="name" placeholder="Your name" required></div>
+      <div><label for="email" class="mb-1.5 block text-sm font-semibold text-stone-700">Email or phone</label><input class="form-control" id="email" name="email" type="text" autocomplete="email" placeholder="you@example.com" required></div>
+      <div class="grid gap-4 sm:grid-cols-2"><div><label for="new-password" class="mb-1.5 block text-sm font-semibold text-stone-700">Password</label><input class="form-control" id="new-password" name="password" type="password" autocomplete="new-password" minlength="8" placeholder="8+ characters" required></div><div><label for="confirm-password" class="mb-1.5 block text-sm font-semibold text-stone-700">Confirm password</label><input class="form-control" id="confirm-password" name="confirmPassword" data-confirm-password type="password" autocomplete="new-password" minlength="8" placeholder="Repeat password" required></div></div>
+      <div><label for="address" class="mb-1.5 block text-sm font-semibold text-stone-700">Address or locality</label><input class="form-control" id="address" name="address" autocomplete="street-address" placeholder="Neighborhood, city" required></div>
+      <button class="primary-btn mt-2 w-full" type="submit">Create account <i data-lucide="arrow-right" class="ml-1 inline h-4 w-4"></i></button>
+    </form>
+    <p class="mt-5 text-center text-sm text-stone-500">Already registered? <a class="font-bold text-emerald-800 hover:underline" href="login.html">Sign in</a></p>
+    <p class="mt-6 text-center text-xs leading-5 text-stone-400">API placeholder: <code>POST /api/auth/register</code>. Passwords must be hashed server-side; never trust a role supplied by the client.</p>
+  </div></section>
+</main><script src="app.js"></script><script>if(window.lucide)lucide.createIcons();</script></body></html>
