@@ -213,7 +213,7 @@ Auth + Business Logic + Notifications
         │
         ▼
 Database (planned)
-MongoDB / PostgreSQL
+MySQL
 ```
 
 ---
@@ -231,7 +231,7 @@ MongoDB / PostgreSQL
 | OpenStreetMap | Map tiles |
 | Geolocation API | Current location |
 | Node.js + Express | Planned backend |
-| MongoDB / PostgreSQL | Planned database |
+| SQL / MyS.Q.L. | Planned database |
 | JWT / Session | Planned authentication |
 | SMTP | Planned email notifications |
 
