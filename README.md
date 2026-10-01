@@ -1,4 +1,9 @@
+
 # ♻️ WasteFlow — Smart Waste Management System
+Live Deployment url:https://test.hexafx.online/
+Pickup Partner Panel:https://test.hexafx.online/partner-login.html
+Admin Panel:https://test.hexafx.online/admin-login.html (Admin E-mail:"godvaibhav@gmail.com" Admin Password:12345678
+
 
 > **Cleaner Cities. Greener Tomorrow.**
 
